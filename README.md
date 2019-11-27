@@ -1,28 +1,19 @@
-# Adonis API application
+![Code Zap / Programação para todos](https://codezap.com.br/assets/img/logo.png?v=2.jpg)
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+Code Zap é uma nova maneira de aprender programação de um jeito fácil e de graça. Aprender com Code Zap é divertido e viciante!
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+ 
 
-## Setup
-
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick --api-only
-```
-
-or manually clone the repo and then run `npm install`.
+- **WebSite**
+    - **Link:**  https://codezap.com.br/
+    - **Whois:** https://registro.br/tecnologia/ferramentas/whois/?search=codezap.com.br
+    - **Registro 26/11:** https://prnt.sc/q2u0na
+- Logo Desenvolvida
+    - **Pasta Fontes:** https://drive.google.com/drive/folders/1VRqNJmJNh5bCfLibdwFTBs68BlnOnYIB?usp=sharing
+- Apresentação do Negócio
+    - **Pitchdeck:** https://drive.google.com/file/d/1ulv6bEZLopS6r-0APYiwvZzDiHL70c80/view?usp=sharing
+- Repositórios
+    - **Backend:** https://github.com/reggiegutter/codezap
+    - **App:** https://github.com/reggiegutter/codezap-app
 
 
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
