@@ -19,3 +19,5 @@ Route.get('/', () => {
 });
 
 Route.get('bot', 'LandbotController.index');
+Route.get('chat', 'ChatController.index');
+Route.post('chat', 'ChatController.create');

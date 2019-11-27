@@ -13,6 +13,10 @@
 
 const Ws = use('Ws');
 
+
+Ws
+  .channel('room:*', 'ChatController')
+
 Ws.channel('codezap', ({ socket }) => {
   console.log('user joined with %s socket id', socket.id);
 });
