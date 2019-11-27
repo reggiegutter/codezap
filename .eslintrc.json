@@ -1,0 +1,64 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "plugins": ["prettier"],
+  "extends": ["standard", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "globals": {
+    "use": false,
+    "getValue": false
+  },
+  "rules": {
+    "prettier/prettier": ["error"],
+    "import/no-extraneous-dependencies": [
+      2,
+      {
+        "optionalDependencies": true
+      }
+    ],
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "linebreak-style": 0,
+    "import/no-unresolved": "off",
+    "curly": 2,
+    "dot-notation": 2,
+    "id-length": 0,
+    "no-const-assign": 2,
+    "no-dupe-class-members": 2,
+    "no-else-return": 2,
+    "no-inner-declarations": 2,
+    "no-lonely-if": 2,
+    "no-shadow": 2,
+    "no-unneeded-ternary": 2,
+    "no-unused-expressions": 2,
+    "no-unused-vars": [
+      2,
+      {
+        "args": "none",
+        "ignoreRestSiblings": true
+      }
+    ],
+    "no-useless-return": 2,
+    "no-var": 2,
+    "one-var": [2, "never"],
+    "no-undef": 2,
+    "prefer-arrow-callback": 2,
+    "prefer-const": 2,
+    "prefer-template": 2,
+    "prefer-promise-reject-errors": 2,
+    "strict": [2, "global"]
+  }
+}
