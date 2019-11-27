@@ -2,7 +2,7 @@
 
 Code Zap é uma nova maneira de aprender programação de um jeito fácil e de graça. Aprender com Code Zap é divertido e viciante!
 
- 
+   
 
 - **WebSite**
     - **Link:**  https://codezap.com.br/
@@ -16,6 +16,7 @@ Code Zap é uma nova maneira de aprender programação de um jeito fácil e de g
     - **Backend:** https://github.com/reggiegutter/codezap
     - **App:** https://github.com/reggiegutter/codezap-app
 
+    
 
 ## SOBRE CODE ZAP
 
@@ -35,6 +36,7 @@ Todo mundo concorda: É viciante porque as lições são organizadas com pequena
 
 **Evolução constante:** Veja como sua pontuação aumenta à medida que aprende e desbloqueie novos níveis.
 
+   
 
 ## PORQUE ESCOLHER A CODE ZAP
 
